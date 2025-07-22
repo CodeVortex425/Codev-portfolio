@@ -1,3 +1,5 @@
+'use client'
+
 import React from 'react'
 import { GraduationCap, Briefcase, Award, Code } from 'lucide-react'
 import Project from '../projects/page'

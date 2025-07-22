@@ -1,3 +1,5 @@
+'use client'
+
 import React, { useState } from 'react'
 import { useIntersectionObserver } from '../utils/scroll';
 import { Award, Download, FileText, Languages } from 'lucide-react';
