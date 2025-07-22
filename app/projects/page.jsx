@@ -80,7 +80,7 @@ export default function Page() {
           <div className='w-20 h-1 bg-black/20 mx-auto mt-6'></div>
         </div>
 
-        <div className='grid grid-cols-2 lg:grid-cols-2 gap-8'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 gap-8'>
           {projects.map((project, index) => (
             <div
             key={project.id}
