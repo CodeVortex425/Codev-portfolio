@@ -20,7 +20,7 @@ export default function Footer() {
           </div>
           
           <button 
-            className="mt-6 md:mt-0 w-10 h-10 flex items-center justify-center rounded-full bg-gray-300 hover:bg-gray-700 hover:text-gray-300 transition-colors"
+            className="mt-6 md:mt-0 w-10 h-10 flex items-center justify-center rounded-full bg-gray-300 hover:bg-gray-700 hover:text-gray-300 transition-colors animate-bounce"
             onClick={() => smoothScrollTo('home')}
             aria-label="Scroll to top"
           >
